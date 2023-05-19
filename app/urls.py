@@ -19,7 +19,7 @@ urlpatterns = [
 
     path('verifyEmail/', views.VerifyOTP, name='verifyEmail'),
     
-    path('captcha,',include('captcha.urls')), 
+    #path('captcha,',include('captcha.urls')), 
     # path('phone,',include('captcha.urls')), 
 
     path('buy/', views.buy_now, name='buy-now'),
