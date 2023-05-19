@@ -28,10 +28,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
-    'phonenumber_field',
-    "paypal.standard.ipn",
-    'captcha',
-]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
