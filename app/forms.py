@@ -22,7 +22,6 @@ class CustomerRegistrationForm(UserCreationForm):
 
 
 class LoginForm(AuthenticationForm):
-    captcha=CaptchaField()
     username = UsernameField(widget=forms.TextInput(attrs={"autofocus": True, 'class':'form-control'}))
     password = forms.CharField(
         label=_("Password"),
